@@ -60,9 +60,5 @@ router.post('/', (req, res) => {
   }
 });
 
-curl -H "Content-Type: application/json" -X POST "localhost:3000/webhook" -d '{"object": "page", "entry": [{"messaging": [{"message": "TEST_MESSAGE"}]}]}’
-
-
-
 
 module.exports = router;
